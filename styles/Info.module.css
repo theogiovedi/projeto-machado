@@ -1,0 +1,28 @@
+.info {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.id, .universities, .item {
+    font-size: 28px;
+}
+
+.universities, .item {
+    margin: 0 0 30px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    text-decoration: none;
+    color: #998C66;
+    transition: ease-out color 0.25s;
+}
+
+.item:hover {
+    color: #332600;
+}

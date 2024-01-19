@@ -1,0 +1,42 @@
+.book {
+    display: flex;
+    justify-content: center;
+    aspect-ratio: 1;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    outline: 4px solid #EEE3C4;
+    aspect-ratio: 3 / 4;
+    text-decoration: none;
+}
+
+.cover:hover {
+    outline-color: #332600;
+    border-radius: 40px;
+    transition: ease-out border-radius 0.75s, ease-out outline-color 0.5s;
+}
+
+.tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF8E5;
+    color: #332600;
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.author {
+    text-align: center;
+    font-size: 20px;
+}

@@ -1,0 +1,29 @@
+.details {
+    display: flex;
+    margin-top: 10px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+}
+
+@media screen and (max-width: 920px) {
+    .details {
+        flex-direction: column;
+    }
+    
+    .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .right {
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+.search {
+    width: calc(100% - 40px);
+    margin: 0px auto 40px auto;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    width: 140px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #EEE3C4;
+    color: #332600;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    transition: ease-out width 0.25s;
+}
+
+.input:focus, .input:not(:placeholder-shown) {
+    width: 100%;
+}
+
+.input::placeholder {
+  color: #998C66;
+}

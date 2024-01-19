@@ -1,0 +1,20 @@
+.books {
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 40px;
+    background-color: #EEE3C4;
+}
+
+@media screen and (max-width: 1000px) {
+    .books {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .books {
+        grid-template-columns: 1fr;
+    }
+}
