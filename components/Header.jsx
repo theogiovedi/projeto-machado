@@ -1,10 +1,10 @@
 import styles from "../styles/Header.module.css";
 
-const Header = () => {
+export default function Header() {
     return (
         <header className={styles.header}>
             <a href="/">
-                <img className={styles.logo} src="logo.svg" />
+                <img className={styles.logo} src="/logo.svg" />
             </a>
             <a className={styles.repo} href="https://github.com/theogiovedi/projeto-machado">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
@@ -14,5 +14,3 @@ const Header = () => {
         </header>
     );
 };
-
-export default Header;

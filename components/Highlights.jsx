@@ -1,6 +1,6 @@
 import styles from "../styles/Highlights.module.css"
 
-const Highlights = () => {
+export default function Highlights() {
     return (
         <div className={styles.highlights}>
             <a className={styles.item} style={{backgroundColor: "#FFFF31"}} href="/vida">
@@ -46,5 +46,3 @@ const Highlights = () => {
         </div>
     );
 }
-
-export default Highlights;

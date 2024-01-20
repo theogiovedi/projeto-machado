@@ -1,19 +1,15 @@
 import styles from "../styles/Info.module.css"
 
-const Info = () => {
+export default function Info({ id, universities, links }) {
     return (
         <div className={styles.info}>
-            <div className={styles.id}>#1</div>
-            <div className={styles.universities}>Unicamp (2024)</div>
-            <div className={styles.links}>
-                <a href="/1" className={styles.item}>Wikisource</a>
-                <a href="/1" className={styles.item}>Portal Domínio Público (Universidade da Amazônia - UNAMA)</a>
-                <a href="/1" className={styles.item}>Portal Domínio Público (Fundação Biblioteca Nacional)</a>
-                <a href="/1" className={styles.item}>Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)</a>
-                <a href="/1" className={styles.item}>Project Gutenberg</a>
-            </div>
+            <div className={styles.id}>#{id}</div>
+            <div className={styles.universities}>{
+                universities.map((university) => university.name + " (" + (university.start == university.end ? university.start : (university.start + "-" + university.end)) + ")").join(", ")
+            }</div>
+            <div className={styles.links}>{
+                links.map((link) => <a href={link.url} className={styles.item}>{link.name}</a>)
+            }</div>
         </div>
     );
 }
-
-export default Info;

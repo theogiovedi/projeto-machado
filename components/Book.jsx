@@ -1,6 +1,6 @@
 import styles from "../styles/Book.module.css"
 
-const Book = ({title, author, color, link}) => {
+export default function Book({title, author, color, link}) {
     return (
         <div className={styles.book}>
             <a className={styles.cover} href={link} style={{backgroundColor: color}}>
@@ -12,5 +12,3 @@ const Book = ({title, author, color, link}) => {
         </div>
     );
 }
-
-export default Book;

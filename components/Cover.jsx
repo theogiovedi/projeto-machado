@@ -1,14 +1,13 @@
 import styles from "../styles/Cover.module.css"
 
-const Cover = () => {
+export default function Cover({ title, author, color }) {
     return (
-        <div className={styles.cover} style={{backgroundColor: "#FFFF31"}}>
+        <div className={styles.cover} style={{backgroundColor: color}}>
             <div className={styles.tag}>
-                <div className={styles.title}>Vida e morte de M.J. Gonzaga de Sá</div>
-                <div className={styles.author}>Lima Barreto</div>
+                <div className={styles.title}>{title}</div>
+                <div className={styles.author}>{author}</div>
             </div>
         </div>
     );
 }
 
-export default Cover;

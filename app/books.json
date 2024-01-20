@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "title": "Alice no País das Maravilhas",
+        "author": "Lewis Carroll",
+        "color": "#FF3131",
+        "universities": [
+            {
+                "name": "Unicamp",
+                "start": 2024,
+                "end": 2026
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/Alice_no_Pa%C3%ADs_das_Maravilhas"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Carta ao El Rei D. Manuel",
+        "author": "Pero Vaz de Caminha",
+        "color": "#FF9831",
+        "universities": [
+            {
+                "name": "Unicamp",
+                "start": 2024,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/Carta_a_El_Rei_D._Manuel_(ortografia_atualizada)"
+            },
+            {
+                "name": "Portal Domínio Público (Universidade da Amazônia - UNAMA)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=17424"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2003"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Casa Velha",
+        "author": "Machado de Assis",
+        "color": "#FFFF31",
+        "universities": [
+            {
+                "name": "Unicamp",
+                "start": 2024,
+                "end": 2026
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/Casa_Velha"
+            },
+            {
+                "name": "Portal Domínio Público (Fundação Biblioteca Nacional)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2040"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=1876"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "O Ateneu",
+        "author": "Raul Pompéia",
+        "color": "#31FF31",
+        "universities": [
+            {
+                "name": "Unicamp",
+                "start": 2024,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/O_Ateneu"
+            },
+            {
+                "name": "Portal Domínio Público (Universidade da Amazônia - UNAMA)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=17440"
+            },
+            {
+                "name": "Portal Domínio Público (Fundação Biblioteca Nacional)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2020"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2008"
+            },
+            {
+                "name": "Project Gutenberg",
+                "url": "https://gutenberg.org/ebooks/68541"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Tarde",
+        "author": "Olavo Bilac",
+        "color": "#31FFFF",
+        "universities": [
+            {
+                "name": "Unicamp",
+                "start": 2024,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/Tarde"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=1999"
+            },
+            {
+                "name": "Portal Domínio Público (Universidade da Amazônia - UNAMA)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=17314"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Vida e morte de M.J. Gonzaga de Sá",
+        "author": "Lima Barreto",
+        "color": "#3131FF",
+        "universities": [
+            {
+                "name": "Unicamp",
+                "start": 2025,
+                "end": 2026
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/Vida_e_morte_de_M._J._Gonzaga_de_S%C3%A1_(1919)"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Marília de Dirceu",
+        "author": "Tomás Antônio Gonzaga",
+        "color": "#9831FF",
+        "universities": [
+            {
+                "name": "Fuvest",
+                "start": 2024,
+                "end": 2025
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/Mar%C3%ADlia_de_Dirceu"
+            },
+            {
+                "name": "Portal Domínio Público (Fundação Biblioteca Nacional)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2048"
+            },
+            {
+                "name": "Portal Domínio Público (Universidade da Amazônia - UNAMA)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=17456"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2012"
+            },
+            {
+                "name": "Project Gutenberg",
+                "url": "https://gutenberg.org/ebooks/18082"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Quincas Borba",
+        "author": "Machado de Assis",
+        "color": "#FF31BA",
+        "universities": [
+            {
+                "name": "Fuvest",
+                "start": 2023,
+                "end": 2025
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/Quincas_Borba"
+            },
+            {
+                "name": "Portal Domínio Público (Fundação Biblioteca Nacional)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2118"
+            },
+            {
+                "name": "Portal Domínio Público (Universidade da Amazônia - UNAMA)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=16972"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=1949"
+            },
+            {
+                "name": "Project Gutenberg",
+                "url": "https://gutenberg.org/ebooks/55682"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Mensagem",
+        "author": "Fernando Pessoa",
+        "color": "#FF3131",
+        "universities": [
+            {
+                "name": "Fuvest",
+                "start": 2023,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/Mensagem_(Fernando_Pessoa)"
+            },
+            {
+                "name": "Portal Domínio Público (Pessoa Revisitado)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=15726"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "A Ilustre Casa de Ramires",
+        "author": "Eça de Queiroz",
+        "color": "#FF9831",
+        "universities": [
+            {
+                "name": "Fuvest",
+                "start": 2025,
+                "end": 2025
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/A_Ilustre_Casa_de_Ramires"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual de Literatura)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=7529"
+            },
+            {
+                "name": "Project Gutenberg",
+                "url": "https://gutenberg.org/ebooks/23145"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Várias Histórias",
+        "author": "Machado de Assis",
+        "color": "#FFFF31",
+        "universities": [
+            {
+                "name": "UFRGS",
+                "start": 2024,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/V%C3%A1rias_Hist%C3%B3rias_(Machado_de_Assis)"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=1964"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "A Falência",
+        "author": "Júlia Lopes de Almeida",
+        "color": "#31FF31",
+        "universities": [
+            {
+                "name": "UFRGS",
+                "start": 2024,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/A_Fal%C3%AAncia"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual de Literatura)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=7552"
+            },
+            {
+                "name": "Project Gutenberg",
+                "url": "https://gutenberg.org/ebooks/69229"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Coração, Cabeça e Estômago",
+        "author": "Camilo Castelo Branco",
+        "color": "#31FFFF",
+        "universities": [
+            {
+                "name": "UERJ",
+                "start": 2024,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=1781"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Triste Fim de Policarpo Quaresma",
+        "author": "Lima Barreto",
+        "color": "#3131FF",
+        "universities": [
+            {
+                "name": "UEA",
+                "start": 2024,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/Triste_Fim_de_Policarpo_Quaresma"
+            },
+            {
+                "name": "Portal Domínio Público (Fundação Biblioteca Nacional)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2028"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual do Estudante Brasileiro / USP)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=1867"
+            },
+            {
+                "name": "Project Gutenberg",
+                "url": "https://gutenberg.org/ebooks/67535"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Úrsula",
+        "author": "Maria Firmina dos Reis",
+        "color": "#9831FF",
+        "universities": [
+            {
+                "name": "UFSC",
+                "start": 2024,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/%C3%9Arsula"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "A Alma Encantadora das Ruas",
+        "author": "João do Rio",
+        "color": "#FF31BA",
+        "universities": [
+            {
+                "name": "UFSC",
+                "start": 2024,
+                "end": 2024
+            }
+        ],
+        "links": [
+            {
+                "name": "Wikisource",
+                "url": "https://pt.wikisource.org/wiki/A_Alma_Encantadora_das_Ruas"
+            },
+            {
+                "name": "Portal Domínio Público (Fundação Biblioteca Nacional)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2051"
+            },
+            {
+                "name": "Portal Domínio Público (Biblioteca Virtual de Literatura)",
+                "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=7616"
+            }
+        ]
+    }
+]
