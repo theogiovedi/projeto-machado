@@ -4,6 +4,10 @@ import Cover from "../../../components/Cover.jsx";
 import Info from "../../../components/Info.jsx";
 import Header from "../../../components/Header.jsx";
 
+export async function generateStaticParams() {
+    return books.map(book => ({ id: book.id }));
+}
+
 export default function Page({ params }) {
     const book = books[params.id - 1];
 
