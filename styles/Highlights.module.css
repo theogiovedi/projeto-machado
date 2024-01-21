@@ -1,25 +1,29 @@
-.highlights {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.container {
     width: 100%;
-    padding: 0 20px;
     overflow-x: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
 
-.highlights::-webkit-scrollbar { /* WebKit */
+.highlights {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.container::-webkit-scrollbar { /* WebKit */
     width: 0;
     height: 0;
 }
 
-.highlights::-webkit-scrollbar-track {
+.container::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
-.highlights::-webkit-scrollbar-thumb {
+.container::-webkit-scrollbar-thumb {
     background-color: transparent;
 }
 
