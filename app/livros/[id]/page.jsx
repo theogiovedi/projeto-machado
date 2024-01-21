@@ -5,7 +5,7 @@ import Info from "../../../components/Info.jsx";
 import Header from "../../../components/Header.jsx";
 
 export async function generateStaticParams() {
-    return books.map(book => ({ id: book.id }));
+    return books.map(book => ({ id: String(book.id) }));
 }
 
 export default function Page({ params }) {
