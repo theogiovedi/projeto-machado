@@ -1,5 +1,29 @@
 .section {
     font-size: 20px;
     font-weight: bold;
-    margin: 30px 0 30px 20px;
+    margin: 30px 20px 30px 0;
+    text-align: right;
+}
+
+.filters {
+    display: flex;
+    min-width: 100%;
+    padding: 0 0 40px 10px;
+    overflow-x: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+
+.filters::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.filters::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.filters::-webkit-scrollbar-thumb {
+    background-color: transparent;
 }
