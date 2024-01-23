@@ -8,8 +8,8 @@
     border-radius: 40px;
     border: none;
     height: 50px;
-    min-width: 220px;
-    width: 220px;
+    min-width: 260px;
+    width: 260px;
     transition: ease-out height 0.25s, ease-out width 0.25s, ease-out min-width 0.25s;
 }
 
